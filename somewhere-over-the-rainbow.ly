@@ -71,14 +71,40 @@ sopranowords = \lyricmode {
 }
 altonotes = \relative c' {
   % first verse
-  ees2 g bes4 g8 a bes4 g
+  ees2 g bes4 bes8 a bes4 g
   c,2 d4 f f2 g
   c,4 d8 ees fes2
   ees4 c8 d ees4 e
-  f c8 c c4 d
+  f d8 c c4 d
   bes2. r4
   % second verse
-  
+  g bes ees g
+  bes bes8 a bes4 des
+  c, ees f aes
+  g1
+  aes,2 ees'
+  d4 c8 d e4 e
+  f d8 c c4 d
+  bes2. r8
+  % bridge
+  g'
+  ees g ees g ees g ees g
+  f g f g f g f g
+  g2 g ~ g
+  r4 r8
+  g
+  ees g ees g ees g ees g
+  fis a fis a fis a fis a
+  bes2 bes aes ges
+  % third verse
+  c, a'4 c
+  bes bes8 a bes4 des
+  c, ees f aes
+  g1
+  aes,2 ees'
+  d4 c8 d e4 e
+  f d8 c c4 d
+  bes2. r8
 }
 altowords = \lyricmode {  }
 tenornotes = \relative c' {
@@ -91,7 +117,10 @@ tenornotes = \relative c' {
   g2. r4
   % second verse
   ees4 g c ees
-  g
+  g fis8 fis f4 g
+  aes, c d f
+  f2 ees4 des
+  f,2 ces'
 }
 tenorwords = \lyricmode {  }
 
