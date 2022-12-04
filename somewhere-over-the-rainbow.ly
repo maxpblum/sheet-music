@@ -101,8 +101,8 @@ altonotes = \relative c' {
   bes bes8 a bes4 des
   c, ees f aes
   g1
-  aes,2 ees'
-  d4 c8 d e4 e
+  c,4 d8 ees fes2
+  ees4 c8 d e4 e
   f d8 c c4 d
   bes2. r8
 }
@@ -121,7 +121,29 @@ tenornotes = \relative c' {
   aes, c d f
   f2 ees4 des
   f,2 ces'
+  bes4 bes8 bes c4 bes
+  a a8 g aes4 bes
+  g2. r8
+  % bridge
+  ees'
+  c ees c ees c ees c ees
+  c d c d c d c d
+  ees2 ees ~ ees
+  r4 r8
+  ees
+  c ees c ees c ees c ees
+  ees fis ees fis ees fis ees fis
+  g2 ges f d
+  a fis'
+  g4 fis8 fis f4 g
+  aes, c d f
+  f2 ees4 des
+  aes4 bes ces2
+  bes4 bes8 bes c4 bes
+  a a8 g aes4 bes
+  g2. r8 r8
 }
+
 tenorwords = \lyricmode {  }
 
 \score {
@@ -148,4 +170,8 @@ tenorwords = \lyricmode {  }
       \new Lyrics \lyricsto "tenor" \tenorwords
     >>
   >>
+  \layout {}
+  \midi {
+    \tempo 4 = 90
+  }
 }
