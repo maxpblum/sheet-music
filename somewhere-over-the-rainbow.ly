@@ -210,21 +210,21 @@ tenorwords = \lyricmode {
 
 \score {
   \new ChoirStaff <<
-    \new Staff <<
+    \new Staff \with {midiInstrument = "clarinet"} <<
       \new Voice = "soprano" <<
         \global
         \sopranonotes
       >>
       \new Lyrics \lyricsto "soprano" \sopranowords
     >>
-    \new Staff <<
+    \new Staff \with {midiInstrument = "clarinet"} <<
       \new Voice = "alto" <<
         \global
         \altonotes
       >>
       \new Lyrics \lyricsto "alto" \altowords
     >>
-    \new Staff <<
+    \new Staff \with {midiInstrument = "clarinet"} <<
       \new Voice = "tenor" <<
         \global
         \tenornotes
